@@ -15,6 +15,9 @@
 		BFB901E320FFF15900D3CC71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB901E120FFF15900D3CC71 /* LaunchScreen.storyboard */; };
 		BFB901EE20FFF15900D3CC71 /* BeltReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB901ED20FFF15900D3CC71 /* BeltReviewTests.swift */; };
 		BFB901F920FFF15900D3CC71 /* BeltReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB901F820FFF15900D3CC71 /* BeltReviewUITests.swift */; };
+		BFB9020720FFF36C00D3CC71 /* ThisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9020620FFF36C00D3CC71 /* ThisCell.swift */; };
+		BFB9020920FFF76A00D3CC71 /* addEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9020820FFF76A00D3CC71 /* addEditVC.swift */; };
+		BFB9020B21000C7100D3CC71 /* showVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9020A21000C7100D3CC71 /* showVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		BFB901F420FFF15900D3CC71 /* BeltReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeltReviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB901F820FFF15900D3CC71 /* BeltReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltReviewUITests.swift; sourceTree = "<group>"; };
 		BFB901FA20FFF15900D3CC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB9020620FFF36C00D3CC71 /* ThisCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisCell.swift; sourceTree = "<group>"; };
+		BFB9020820FFF76A00D3CC71 /* addEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEditVC.swift; sourceTree = "<group>"; };
+		BFB9020A21000C7100D3CC71 /* showVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				BFB901D520FFF15700D3CC71 /* AppDelegate.swift */,
 				BFB901D720FFF15700D3CC71 /* ViewController.swift */,
 				BFB901D920FFF15700D3CC71 /* Main.storyboard */,
+				BFB9020A21000C7100D3CC71 /* showVC.swift */,
+				BFB9020820FFF76A00D3CC71 /* addEditVC.swift */,
+				BFB9020620FFF36C00D3CC71 /* ThisCell.swift */,
 				BFB901DF20FFF15900D3CC71 /* Assets.xcassets */,
 				BFB901E120FFF15900D3CC71 /* LaunchScreen.storyboard */,
 				BFB901E420FFF15900D3CC71 /* Info.plist */,
@@ -260,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB901DE20FFF15700D3CC71 /* BeltReview.xcdatamodeld in Sources */,
+				BFB9020920FFF76A00D3CC71 /* addEditVC.swift in Sources */,
+				BFB9020720FFF36C00D3CC71 /* ThisCell.swift in Sources */,
+				BFB9020B21000C7100D3CC71 /* showVC.swift in Sources */,
 				BFB901D820FFF15700D3CC71 /* ViewController.swift in Sources */,
 				BFB901D620FFF15700D3CC71 /* AppDelegate.swift in Sources */,
 			);
